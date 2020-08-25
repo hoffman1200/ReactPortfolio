@@ -49,7 +49,7 @@ function ContactForm() {
 
                     </div>
                         <div className="col-md-6">
-                            <form name="contact" method="POST" data-neflify="true">
+                            <form name="contact" method="POST" data-netlify="true">
                                 <div className="form-group">
                                     <label>Name<input type="text" className="form-control" name="name"/></label>
                                 </div>

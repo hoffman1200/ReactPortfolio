@@ -49,11 +49,11 @@ function ContactForm() {
 
                     </div>
                         <div className="col-md-6">
-                            <form name="contact"  action="/contact" method="post" data-netlify="true">
+                            <form name="contact"  action="/" method="post" data-netlify="true">
                                 <input type="hidden" name="form-name" value="contact"/>
                                 <div className="form-group">
                                     <label>Name</label>
-                                        <input required type="text" name="name"/>
+                                        <input required type="text" name="name" className="form-control"/>
                                 </div>
                                 <div className="form-group">
                                     <label>Email</label>

@@ -51,20 +51,17 @@ function ContactForm() {
                         <div className="col-md-6">
                             <form name="contact" method="POST" data-neflify="true">
                                 <div className="form-group">
-                                    <label>Name</label>
-                                    <input type="text" className="form-control"/>
+                                    <label>Name<input type="text" className="form-control" name="name"/></label>
                                 </div>
                                 <div className="form-group">
-                                    <label>Email</label>
-                                    <input type="text" className="form-control"/>
+                                    <label>Email<input type="email" className="form-control" name="email"/></label>
                                 </div>
                                 <div className="form-group">
-                                    <label>Message</label>
-                                    <textarea className="form-control" rows="5"></textarea>
+                                    <label>Message<textarea name="message" className="form-control" rows="5"></textarea></label>
                                 </div>
                                 <div data-netlify-recaptcha="true"></div>
                                 <div className="form-group">
-                                    <button className="btn btn-outline-light btn-block btn-lg" type="submit">Send</button>
+                                    <button type="submit" className="btn btn-outline-light btn-block btn-lg" >Send</button>
                                 </div>
                             </form>
                         </div>

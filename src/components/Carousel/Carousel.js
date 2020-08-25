@@ -1,0 +1,42 @@
+import React from "react";
+import "../Carousel/Carousel.css"
+
+function Carousel() {
+    return (
+        <div className="container-fluid" id="carouselcontainer">
+        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div className="carousel-inner">
+                <div className="carousel-item active">
+                    <img src="../Images/Laptop.jpg" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption">
+                        <h1 className="display-2">FSC Web Design</h1>
+                        <a href="/contact" target="_blank" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</a>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <img src="../Images/web.jpg" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption">
+                        <h1 className="display-2">Full Stack Developer</h1>
+                        <a href="/portfolio" target="_blank" className="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</a>
+                    </div>
+                </div>
+                <div className="carousel-item">
+                    <img src="../Images/Code.jpg" className="d-block w-100" alt="..."/>
+                    <div className="carousel-caption">
+                        <h1 className="display-2" id="responsive">Responsive Web Design</h1>
+                        <a href="/portfolio" target="_blank" className="btn btn-outline-light btn-lg" role="button" id="button3">Check It Out!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    )
+}
+
+export default  Carousel;

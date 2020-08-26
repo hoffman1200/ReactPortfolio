@@ -17,7 +17,7 @@ function Carousel() {
                     <div className="carousel-caption">
                         <h1 className="display-2">FSC Web Design</h1>
                         {/* <a href="/contact" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</a> */}
-                        <Link to="/contact" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</Link>
+                        <Link to="/contact" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</Link>
                     </div>
                 </div>
                 <div className="carousel-item">
@@ -25,15 +25,15 @@ function Carousel() {
                     <div className="carousel-caption">
                         <h1 className="display-2">Full Stack Developer</h1>
                         {/* <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</a> */}
-                        <Link to="/portfolio" className="btn btn-outline-light btn-lg" role="button" id="button1">Know my Work!</Link>
-
+                        <Link to="/portfolio" className="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</Link>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src="../Images/Code.jpg" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption">
                         <h1 className="display-2" id="responsive">Responsive Web Design</h1>
-                        <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button3">Check It Out!</a>
+                        {/* <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button3">Check It Out!</a> */}
+                        <Link to="/portfolio" className="btn btn-outline-light btn-lg" role="button" id="button3">Check It Out!</Link>
                     </div>
                 </div>
             </div>

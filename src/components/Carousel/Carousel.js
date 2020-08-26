@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Carousel/Carousel.css"
 
 function Carousel() {
@@ -15,14 +16,17 @@ function Carousel() {
                     <img src="../Images/Laptop.jpg" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption">
                         <h1 className="display-2">FSC Web Design</h1>
-                        <a href="/contact" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</a>
+                        {/* <a href="/contact" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</a> */}
+                        <Link to="/contact" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button1">Get in Touch!</Link>
                     </div>
                 </div>
                 <div className="carousel-item">
                     <img src="../Images/web.jpg" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption">
                         <h1 className="display-2">Full Stack Developer</h1>
-                        <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</a>
+                        {/* <a href="/portfolio" target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-lg" role="button" id="button2">Know my Work!</a> */}
+                        <Link to="/portfolio" className="btn btn-outline-light btn-lg" role="button" id="button1">Know my Work!</Link>
+
                     </div>
                 </div>
                 <div className="carousel-item">
